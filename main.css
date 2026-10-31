@@ -98,7 +98,7 @@ button{
 }
 @media(max-width: 600px){
     .gif{
-        width: 55px;
+        width: 75px;
     }
     #letter{
         width: 90%;
@@ -107,6 +107,6 @@ button{
     }
     #letter p{
         overflow-wrap: break-word;
-        font-size: 30px;
+        font-size: 20px;
     }
 }
