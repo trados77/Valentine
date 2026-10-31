@@ -100,4 +100,12 @@ button{
     .gif{
         width: 55px;
     }
+    .letter{
+        width: 90%;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    .letter p{
+        overflow-wrap: break-word;
+    }
 }
