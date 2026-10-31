@@ -97,16 +97,55 @@ button{
     transform: translateX(-50%);
 }
 @media(max-width: 600px){
-    .gif{
-        width: 75px;
+    body{
+        overflow-x: hidden;
+        overflow-y: auto;
     }
     #letter{
-        width: 80%;
+        width: 94%;
+        max-width: 450px;
+        min-height: auto;
         box-sizing: border-box;
-        padding: 20px;
+        padding: 65px 20px 100px;
+        margin: 20px auto;
     }
     #letter p{
+        font-size: clamp(22px, 7vw, 30px);
+        line-height: 1.5;
         overflow-wrap: break-word;
-        font-size: 20px;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .gif{
+        width: 65px;
+        max-width: 18vw;
+        height: auto;
+    }
+    .top-left{
+        top: 5px;
+        left: 5px;
+    }
+    .top-right{
+        top: 5px;
+        right: 5px;
+    }
+    .left-center, right-center{
+        display: none;
+    }
+    .bottom{
+        bottom: 10px;
+    }
+    .text p, .text2 p{
+        font-size: clamp(28px, 8vw, 38px);
+        text-align: center;
+        padding: 0 12px;
+    }
+    .buttons{
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+    button{
+        padding: 12px 22px;
+        font-size: 16px;
     }
 }
