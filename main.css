@@ -129,7 +129,7 @@ button{
         top: 5px;
         right: 5px;
     }
-    .left-center, right-center{
+    .left-center, .right-center{
         display: none;
     }
     .bottom{
