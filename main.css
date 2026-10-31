@@ -47,7 +47,7 @@ button{
     cursor: pointer;
 }
 #yes{
-    transition: trasform 0.3s ease;
+    transition: transform 0.3s ease;
 }
 #letter{
     display: none;
@@ -100,12 +100,13 @@ button{
     .gif{
         width: 55px;
     }
-    .letter{
+    #letter{
         width: 90%;
         box-sizing: border-box;
         padding: 20px;
     }
-    .letter p{
+    #letter p{
         overflow-wrap: break-word;
+        font-size: 30px;
     }
 }
