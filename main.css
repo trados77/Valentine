@@ -101,12 +101,12 @@ button{
         width: 75px;
     }
     #letter{
-        width: 90%;
+        width: 80%;
         box-sizing: border-box;
         padding: 20px;
     }
     #letter p{
         overflow-wrap: break-word;
-        font-size: 20px;
+        font-size: 12px;
     }
 }
